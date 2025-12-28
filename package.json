@@ -1,16 +1,28 @@
 {
-  "name": "segfault-backend",
+  "name": "lowlevellab-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msohail22/LowLevelLab-backend.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.23.0",
+  "bugs": {
+    "url": "https://github.com/msohail22/LowLevelLab-backend/issues"
+  },
+  "homepage": "https://github.com/msohail22/LowLevelLab-backend#readme",
+  "description": "",
   "devDependencies": {
+    "@types/node": "^25.0.3",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
